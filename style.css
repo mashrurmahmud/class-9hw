@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+ .heading{
+    padding: 98px 0;
+    text-align: center;
+   
+    
+
+}
+ .heading h2{
+    font-size: 46px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #02918c;
+    
+}
+.heading p{
+    font-size: 16px;
+    color: #7e8287;
+    text-align: center;
+    text-align-last: center;
+}
+
+
+nav{
+    background-color: #02918c;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+}
+
+nav .row{
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav ul li a{
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-top: 26px;
+    padding-right: 25px;
+    padding-bottom: 26px;
+    padding-left: 25px;
+    display: inline-block;
+    transition: 0.5s;
+
+}
+
+nav ul li a:hover{
+   color: #cfc91d;
+   background-color: black;
+}
+
+#banner{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./suit.png);
+    background-size: cover;
+    padding: 100px;
+
+    
+
+}
+
+#banner .container{
+    text-align: center;
+    padding-top: 200px;
+    
+
+    width: 1001px;
+    height: 565px;
+}
+
+#font{
+    font-size: 42px;
+    letter-spacing: 32px;
+    color: #ffffff;}
+
+
+#paragraph{
+    color: #ffffff;
+}
+
+
+h3{
+    color: #ffffff;
+}
+
+
+
+
+#banner .container .sec {
+   
+    margin-top: 52px;
+    
+
+    
+   
+}
+
+#banner .container .sec a{
+    background-color: #cfc91d;
+    padding-left: 43px;
+    text-transform: uppercase;
+    padding-right: 42px;
+    padding-top: 19px;
+    padding-bottom: 18px;
+
+}
+.logo{
+    margin-top: 23px;
+    
+}
+
+ .container h1{
+    color: black;
+    
+}
+
+ .container .heading{
+    padding: 98px 0;
+    text-align: center;
+   
+    
+
+}
+ .container .heading h2{
+    font-size: 46px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #02918c;
+    
+}
+
+#about .heading span{
+    font-weight: 800;
+    font-size: 23px;
+}
+#about .container .heading p{
+    line-height: 40px;
+}
+
+.about_card{
+    width: 25%;
+    padding-left: 55px;
+    
+}
+.about_card p{
+    border-right: 2px solid black;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
